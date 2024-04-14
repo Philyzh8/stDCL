@@ -65,7 +65,7 @@ We give users some suggestions for running in the <a href="https://github.com/Ph
 
 # Data Availability
 
-The real data sets we used can be download in <a href="https://doi.org/10.5281/zenodo.7475687">data</a>.
+The real data sets we used can be download in <a href="[https://doi.org/10.5281/zenodo.7475687](https://zenodo.org/records/10968451)">data</a>.
 
 # License
 
