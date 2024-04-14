@@ -2,7 +2,7 @@
 
 [![PyPI badge](https://img.shields.io/pypi/v/scMGCA.svg)](https://pypi.org/project/scMGCA/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7515775.svg)](https://doi.org/10.5281/zenodo.7515775)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10968451.svg)](https://zenodo.org/records/10968451)
 
 `stDCL` is a Python package containing tools for clustering single-cell data based on a graph-embedding autoencoder that simultaneously learns cell–cell topology representation and cluster assignments.
 
