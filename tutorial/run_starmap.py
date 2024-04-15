@@ -3,8 +3,6 @@ import torch
 import pandas as pd
 import scanpy as sc
 from sklearn import metrics
-import multiprocessing as mp
-from pathlib import Path
 from stDCL import *
 from utils import clustering
 import argparse
