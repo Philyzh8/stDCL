@@ -39,7 +39,7 @@ scikit-learn
 pandas
 scanpy
 ```
-For specific setting, please see <a href="https://github.com/Philyzh8/scMGCA/blob/master/requirements.txt">requirement</a>.
+For specific setting, please see <a href="https://github.com/Philyzh8/stDCL/blob/master/requirements.txt">requirement</a>.
 
 # Installation Guide:
 
@@ -53,7 +53,7 @@ $ pip install stDCL
 ```
 
 # Usage
-`scMGCA` is a deep graph embedding learning method for single-cell clustering, which can be used to:
+`stDCL` is a dual graph contrastive learning method for identifing spatial domains, which can be used to:
 + Single-cell data clustering. The example can be seen in the <a href="https://github.com/Philyzh8/scMGCA/blob/master/tutorial/demo.py">demo.py</a>.
 + Correct the batch effect of data from different scRNA-seq protocols. The example can be seen in the <a href="https://github.com/Philyzh8/scMGCA/blob/master/tutorial/demo_batch.py">demo_batch.py</a>.
 + Analysis of the mouse brain data with 1.3 million cells. The example can be seen in the <a href="https://github.com/Philyzh8/scMGCA/blob/master/tutorial/demo_scale.py">demo_scale.py</a>.
