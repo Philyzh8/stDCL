@@ -73,6 +73,6 @@ The real data sets we used can be download in <a href="https://zenodo.org/record
 
 # License
 
-This project is covered under the **MIT License**.
+This project is covered under the <a href="https://github.com/Philyzh8/stDCL/blob/master/LICENSE">**MIT License**</a>.
 
 
