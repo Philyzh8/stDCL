@@ -39,7 +39,7 @@ scikit-learn
 pandas
 scanpy
 ```
-For specific setting, please see <a href="https://github.com/Philyzh8/stDCL/blob/master/requirements.txt">requirement</a>.
+For specific setting, please see <a href="https://github.com/Philyzh8/stDCL/blob/master/requirements.txt">requirements</a> or <a href="https://github.com/Philyzh8/stDCL/blob/master/environment.yaml">environment</a>.
 
 # Installation Guide:
 
@@ -50,6 +50,12 @@ $ conda create -n stDCL_env python=3.8.15
 $ conda activate stDCL_env
 $ pip install -r requirements.txt
 $ pip install stDCL
+```
+
+### Install from Conda
+
+```
+$ conda env create -f environment.yaml
 ```
 
 # Usage
