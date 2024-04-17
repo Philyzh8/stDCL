@@ -3,8 +3,8 @@ import torch
 import pandas as pd
 import scanpy as sc
 from sklearn import metrics
-from stDCL import *
-from utils import clustering
+from stDCL.stDCL import *
+from stDCL.utils import clustering
 import argparse
 
 if __name__ == '__main__': 
