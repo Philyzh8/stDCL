@@ -1,6 +1,6 @@
 # stDCL
 
-[![PyPI badge](https://img.shields.io/pypi/v/scDCL.svg)](https://pypi.org/project/stDCL/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/stDCL)(https://pypi.org/project/stDCL/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10968451.svg)](https://zenodo.org/records/10968451)
 
