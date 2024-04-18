@@ -11,7 +11,7 @@ from setuptools import setup
 
 setup(
     name='stDCL',
-    version='1.0.0',
+    version='1.0.1',
     description='Spatial Transcriptome Heterogeneity Dissection of Brain Regions with Dual Graph Contrastive Learning',
     author='Zhuohan Yu',
     long_description=open('README.md').read(),
