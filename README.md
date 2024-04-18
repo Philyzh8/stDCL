@@ -65,6 +65,8 @@ $ conda env create -f environment.yaml
 + Analysis of the mouse brain data with 1.3 million cells. The example can be seen in the <a href="https://github.com/Philyzh8/scMGCA/blob/master/tutorial/demo_scale.py">demo_scale.py</a>.
 + Provide an automatic hyperparameter search algorithm. The example can be seen in the <a href="https://github.com/Philyzh8/scMGCA/blob/master/tutorial/demo_para.py">demo_para.py</a>.
 
+We also provide <a href="https://github.com/Philyzh8/stDCL/tree/master/step-by-step">step-by-step</a> tutorials to analyze spatial transcriptomic datasets.
+
 
 
 # Data Availability
