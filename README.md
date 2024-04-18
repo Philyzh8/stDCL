@@ -59,13 +59,13 @@ $ conda env create -f environment.yaml
 ```
 
 # Usage
-`stDCL` is a dual graph contrastive learning method for identifing spatial domains, which can be used to:
-+ Single-cell data clustering. The example can be seen in the <a href="https://github.com/Philyzh8/scMGCA/blob/master/tutorial/demo.py">demo.py</a>.
-+ Correct the batch effect of data from different scRNA-seq protocols. The example can be seen in the <a href="https://github.com/Philyzh8/scMGCA/blob/master/tutorial/demo_batch.py">demo_batch.py</a>.
-+ Analysis of the mouse brain data with 1.3 million cells. The example can be seen in the <a href="https://github.com/Philyzh8/scMGCA/blob/master/tutorial/demo_scale.py">demo_scale.py</a>.
-+ Provide an automatic hyperparameter search algorithm. The example can be seen in the <a href="https://github.com/Philyzh8/scMGCA/blob/master/tutorial/demo_para.py">demo_para.py</a>.
+:page_facing_up: `stDCL` is a dual graph contrastive learning method for identifing spatial domains, which can be used to:
++ DLPFC. The example can be seen in the <a href="https://github.com/Philyzh8/stDCL/blob/master/tutorial/run_dlpfc.py">run_dlpfc.py</a>.
++ MERFISH. The example can be seen in the <a href="https://github.com/Philyzh8/stDCL/blob/master/tutorial/run_merfish.py">run_merfish.py</a> and <a href="https://github.com/Philyzh8/stDCL/blob/master/tutorial/run_merfish_brain.py">run_merfish_brain.py</a>.
++ osmFISH. The example can be seen in the <a href="https://github.com/Philyzh8/stDCL/blob/master/tutorial/run_osm.py">run_osm.py</a>.
++ STARmap. The example can be seen in the <a href="https://github.com/Philyzh8/stDCL/blob/master/tutorial/run_starmap.py">run_starmap.py</a> and <a href="https://github.com/Philyzh8/stDCL/blob/master/tutorial/run_starmap_plus.py">run_starmap_plus.py</a>.
 
-We also provide <a href="https://github.com/Philyzh8/stDCL/tree/master/step-by-step">step-by-step</a> tutorials to analyze spatial transcriptomic datasets.
+:page_facing_up: We also provide <a href="https://github.com/Philyzh8/stDCL/tree/master/step-by-step">step-by-step</a> tutorials to analyze spatial transcriptomic datasets.
 
 
 
