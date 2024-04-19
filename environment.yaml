@@ -207,5 +207,5 @@ dependencies:
     - umap-learn==0.5.3
     - urllib3==1.26.13
     - zipp==3.11.0
-prefix: /home/yuzhuohan/miniconda2/envs/graphst2
+prefix: /home/yuzhuohan/miniconda2/envs/stDCL_env
 
