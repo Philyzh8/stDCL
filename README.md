@@ -71,7 +71,8 @@ $ conda env create -f environment.yaml
 
 |    Parameter    | Introduction                                                 |
 | :-------------: | ------------------------------------------------------------ |
-|    dataname     | A h5 file. Contains a matrix of scRNA-seq expression values,true labels, and other information. By default, genes are assumed to be represent-ed by columns and samples are assumed to be represented by rows. |
+|    dataset     | A h5 file. Contains spatial transcriptomics gene expression matrix, coordinate information, and other information. By default, it is assumed that genes are represented by columns and samples are represented by rows.|
+|  datatype   | Different spatial transcriptomics data types, such as ‘10x’, ‘osmFISH’, ‘MERFISH’, etc.                                    |
 |  highly genes   | Number of genes selected                                     |
 | pretrain epochs | Number of pretrain epochs                                    |
 |     maxiter     | Number of training epochs                                    |
