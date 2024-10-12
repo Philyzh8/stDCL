@@ -71,11 +71,21 @@ $ conda env create -f environment.yaml
 
 |    Parameter    | Introduction                                                 |
 | :-------------: | ------------------------------------------------------------ |
-|    dataset     | A h5 file. Contains spatial transcriptomics gene expression matrix, coordinate information, and other information. By default, it is assumed that genes are represented by columns and samples are represented by rows.|
+|    dataset     | Contains spatial transcriptomics gene expression matrix, coordinate information, and other information. By default, it is assumed that genes are represented by columns and samples are represented by rows.|
 |  datatype   | Different spatial transcriptomics data types, such as ‘10x’, ‘osmFISH’, ‘MERFISH’, etc.                                    |
-|  highly genes   | Number of genes selected                                     |
-| pretrain epochs | Number of pretrain epochs                                    |
-|     maxiter     | Number of training epochs                                    |
+|  n_clusters   | The true number of clusters in the data or the pre-set number of clusters                                    |
+| prelr | Learning rate for model pre-training                                   |
+| lr | Learning rate for model training                                   |
+| pre_epochs | Number of pre-training epochs                                    |
+|     epochs     | Number of training epochs                                    |
+|     noise     | Gaussian noise added during data augmentation                                  |
+|     lambda1-3     | The weight coefficient assigned to each loss                                 |
+|     input     | Number of  highly variable genes selected                                 |
+|     latent_dim    | Output dimension of the hidden layer                                 |
+|     n_neighbors    | For spatial location information, the number of neighboring spots for each spot                                 |
+|     n_neighbors_gene    | For gene expression information, the number of neighboring spots for each spot                                 |
+|     clustertype    | The clustering method used, including ‘mclust’, ‘leiden’, ‘louvain’                              |
+|     radius    | When the clustering results are redefined, each spot is reassigned to the radius of its respective neighborhood                              |
 
 
 
