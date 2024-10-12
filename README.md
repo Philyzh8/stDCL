@@ -67,6 +67,15 @@ $ conda env create -f environment.yaml
 
 :page_facing_up: We also provide <a href="https://github.com/Philyzh8/stDCL/tree/master/step-by-step">step-by-step</a> tutorials to analyze spatial transcriptomic datasets.
 
+# Arguments
+
+|    Parameter    | Introduction                                                 |
+| :-------------: | ------------------------------------------------------------ |
+|    dataname     | A h5 file. Contains a matrix of scRNA-seq expression values,true labels, and other information. By default, genes are assumed to be represent-ed by columns and samples are assumed to be represented by rows. |
+|  highly genes   | Number of genes selected                                     |
+| pretrain epochs | Number of pretrain epochs                                    |
+|     maxiter     | Number of training epochs                                    |
+
 
 
 # Data Availability
